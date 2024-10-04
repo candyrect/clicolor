@@ -1,3 +1,3 @@
-module github.com/candyrect/sweet-color
+module github.com/candyrect/clicolor
 
 go 1.22
