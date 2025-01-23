@@ -69,6 +69,10 @@ func (c Color) Println(a ...interface{}) {
 	fmt.Println(c.Sprint(a...))
 }
 
+func (c Color) Printf(format string, a ...interface{}) {
+	fmt.Println(c.Sprintf(format, a...))
+}
+
 func (c Color) Print(a ...interface{}) {
 	fmt.Print(c.Sprint(a...))
 }
